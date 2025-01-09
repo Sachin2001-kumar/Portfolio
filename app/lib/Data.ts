@@ -1,7 +1,7 @@
 export const NAV_LINKS=[
     {
         name:"Home",
-        hash :"#home"
+        hash :"#Home"
     },
     {
         name:"About",
@@ -16,7 +16,26 @@ export const NAV_LINKS=[
         hash :"#Skills"
     },
     {
-        name:"Contact Me",
-        hash :"#Contact Me"
+        name:"Contact ",
+        hash :"#Contact"
     }
 ]
+export const skillsData = [
+    "C++",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "PostgreSQL",
+    "Next.js",
+    "TailwindCSS",
+    "React.js",
+    "Recoil",
+    "Node.js",
+    "Express.js",
+    "TurboRepo",
+    "MongoDB",
+    "Prisma",
+    "Git",
+    "Docker",
+
+  ] as const;

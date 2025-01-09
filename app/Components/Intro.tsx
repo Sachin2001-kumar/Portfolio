@@ -2,7 +2,7 @@
 
 import { useSectionInView } from "../lib/hooks";
 import { useActiveSectionContext } from "../lib/Active";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -11,11 +11,12 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection } = useActiveSectionContext();
+
   return (
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] mt-16 sm:mt-0"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -43,7 +44,6 @@ export default function Intro() {
             animate={{ opacity: 1, y: 0 }}
           >
             <div className="text-justify">
-              {" "}
               <div className="font-bold">Hello, </div>
               <div className="font-bold">I'm Sachin Kumar Dagar</div>
               <div className="font-bold text-lg inline-block">
@@ -79,8 +79,9 @@ export default function Intro() {
             </a>
             <a
               className="bg-white p-4 text-gray-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
-              href=""
+              href="https://github.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaGithubSquare />
             </a>
@@ -88,6 +89,7 @@ export default function Intro() {
               className="bg-white p-4 text-gray-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
               href="https://www.linkedin.com/in/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaLinkedin />
             </a>
