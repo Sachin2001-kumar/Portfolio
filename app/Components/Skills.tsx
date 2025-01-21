@@ -32,7 +32,7 @@ export default function Skills (){
           <div className="grid sm:grid-cols-4 grid-cols-2 justify-center gap-4 text-lg text-black-600">
             {displayskills().map((skill, index) => (
               <motion.div
-                className="bg-orange-500 border-black-400 border hover:bg-blue-400 hover:shadow-lg rounded-xl sm:px-5 sm:py-3 p-2 font-semibold flex items-center justify-center transition duration-300 ease-in-out transform hover:-translate-y-1"
+                className="bg-orange-400 border-black-400 border hover:bg-blue-400 hover:shadow-lg rounded-xl sm:px-5 sm:py-3 p-2 font-semibold flex items-center justify-center transition duration-300 ease-in-out transform hover:-translate-y-1"
                 key={index}
                 variants={{
                   initial: { opacity: 0, y: 20 },

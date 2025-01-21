@@ -1,3 +1,7 @@
+import Newsflow from "@/app/Public/Newsflow.png"
+import Portfolio from "@/app/Public/Portfolio.png"
+import TrackNSpend from "@/app/Public/TrackNSpend.png"
+
 export const NAV_LINKS=[
     {
         name:"Home",
@@ -18,6 +22,32 @@ export const NAV_LINKS=[
     {
         name:"Contact ",
         hash :"#Contact"
+    }
+]
+export const ProjectData=[
+    {
+        title:"Portfolio",
+        description:"Created a Portfolio website for me with NextJS, TailwindCSS for styling, and Resend for email.",
+        tags:["NextJS", "TypeScript", "TailwindCSS", "Framer-Motion"],
+        imageUrl:Portfolio,
+        github:"https://github.com/Sachin2001-kumar/Portfolio",
+        liveurl:""
+    },
+    {
+        title:"TrackNSpend",
+        description:"Architected and developed a feature-rich Expense Tracker application using React.js, Node.js, Express.js and MongoDB. ",
+        tags:["ReactJS","NodeJS","ExpressJS","MongoDB"],
+        imageUrl:TrackNSpend,
+        github:"https://github.com/Sachin2001-kumar/TrackNSpend",
+        liveurl:""
+    },
+    {
+        title:"NewsFlow",
+        description:"Designed and developed an interactive news application using HTML, CSS, and JavaScript.",
+        tags:["HTML","CSS","JavaScript"],
+        imageUrl:Newsflow,
+        github:"https://github.com/Sachin2001-kumar/NewsFlow-Web",
+        liveurl:""
     }
 ]
 export const skillsData = [
