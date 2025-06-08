@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useActiveSectionContext } from "../lib/Active";
 import { skillsData } from "../lib/Data";
 import { useSectionInView } from "../lib/hooks";
 import SectionHeading from "./SectionHeading";

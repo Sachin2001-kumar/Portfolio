@@ -45,7 +45,7 @@ export default function Intro() {
           >
             <div className="text-justify">
               <div className="font-bold">Hello, </div>
-              <div className="font-bold">I'm Sachin Kumar Dagar</div>
+              <div className="font-bold">I&apos;m Sachin Kumar Dagar</div>
               <div className="font-bold text-lg inline-block">
                 I am a <span className="bg-green-400">Software Developer</span>
               </div>
