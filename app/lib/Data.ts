@@ -5,25 +5,25 @@ import TrackNSpend from "@/Public/TrackNSpend.png";
 export const NAV_LINKS = [
   {
     name: "Home",
-    hash: "#Home",
+    hash: "#home",
   },
   {
     name: "About",
-    hash: "#About",
+    hash: "#about",
   },
   {
-    name: "Project",
-    hash: "#Project",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Skills",
-    hash: "#Skills",
+    hash: "#skills",
   },
   {
-    name: "Contact ",
-    hash: "#Contact",
+    name: "Contact",
+    hash: "#contact",
   },
-];
+] as const;
 export const ProjectData = [
   {
     title: "Portfolio",
