@@ -16,7 +16,9 @@ export default function Contact() {
       id="contact"
       className="text-center mt-20 px-4 scroll-mt-28 mb-10"
     >
-      <h2 className="text-3xl sm:text-4xl font-bold mb-6">Let's Connect</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold mb-6">
+        Let&apos;s Connect
+      </h2>
       <p className="text-gray-900 mb-6 text-lg font-bold">
         You can reach out to me through any of the platforms below.
       </p>

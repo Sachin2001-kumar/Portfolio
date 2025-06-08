@@ -1,13 +1,14 @@
-"use client"
-import ActiveSectionContextProvider, { ActiveSectionContext } from "./Active"
+"use client";
+import ActiveSectionContextProvider from "./Active";
 
-type props={
-    children:React.ReactNode;
-}
+type props = {
+  children: React.ReactNode;
+};
 
-const Providers= ({children}:props)=>{
-    return (
-   <ActiveSectionContextProvider>{children}</ActiveSectionContextProvider>
-) }
+const Providers = ({ children }: props) => {
+  return (
+    <ActiveSectionContextProvider>{children}</ActiveSectionContextProvider>
+  );
+};
 
 export default Providers;

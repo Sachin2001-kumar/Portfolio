@@ -1,20 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Providers from "./lib/Providers";
 import Header from "./Components/Header";
 import { Mulish } from "next/font/google";
+import { Toaster } from "react-hot-toast";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 const mulish = Mulish({ subsets: ["latin"], weight: "300" });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "My Portfolio",
@@ -37,7 +28,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
-         
+          <Toaster position="top-right" />
         </Providers>
       </body>
     </html>
