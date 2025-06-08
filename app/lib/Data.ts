@@ -32,7 +32,7 @@ export const ProjectData = [
     tags: ["NextJS", "TypeScript", "TailwindCSS", "Framer-Motion"],
     imageUrl: Portfolio,
     github: "https://github.com/Sachin2001-kumar/Portfolio",
-    liveUrl: "",
+    liveUrl: "https://portfolio-7gpg.vercel.app/",
   },
   {
     title: "TrackNSpend",

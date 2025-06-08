@@ -24,7 +24,7 @@ export default function Contact() {
       </p>
       <div className="flex justify-center gap-8">
         <a
-          href="https://github.com/sachin-kumar-dagar"
+          href="https://github.com/Sachin2001-kumar"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -32,7 +32,7 @@ export default function Contact() {
           <FaGithub className={iconStyle} />
         </a>
         <a
-          href="https://www.linkedin.com/in/sachin-kumar-dagar/"
+          href="https://www.linkedin.com/in/sachin-kumar-dagar-a430521ba/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"

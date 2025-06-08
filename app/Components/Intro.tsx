@@ -67,11 +67,11 @@ export default function Intro() {
               }}
             >
               Contact me here{" "}
-              <BsArrowRight className="opacity-70 group-hover:translate-x-0 transition"></BsArrowRight>
+              <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
             </Link>
             <a
               className="group bg-gray-800 text-white px-5 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
-              href=""
+              href="/Sachin_Devops.pdf"
               download
             >
               Resume{" "}
@@ -79,7 +79,7 @@ export default function Intro() {
             </a>
             <a
               className="bg-white p-4 text-gray-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
-              href="https://github.com/"
+              href="https://github.com/Sachin2001-kumar"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -87,7 +87,7 @@ export default function Intro() {
             </a>
             <a
               className="bg-white p-4 text-gray-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
-              href="https://www.linkedin.com/in/"
+              href="https://www.linkedin.com/in/sachin-kumar-dagar-a430521ba/"
               target="_blank"
               rel="noopener noreferrer"
             >
