@@ -1,6 +1,6 @@
-import Newsflow from "@/app/Public/Newsflow.png";
-import Portfolio from "@/app/Public/Portfolio.png";
-import TrackNSpend from "@/app/Public/TrackNSpend.png";
+import Newsflow from "@/Public/Newsflow.png";
+import Portfolio from "@/Public/Portfolio.png";
+import TrackNSpend from "@/Public/TrackNSpend.png";
 
 export const NAV_LINKS = [
   {
