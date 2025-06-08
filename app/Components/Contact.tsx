@@ -7,7 +7,7 @@
 // import SubmitBtn from "./SubmitBtn";
 // import toast from "react-hot-toast";
 // import { sendEmail } from "@/app/action/sendemail";
-// import { Status } from "@/app/action/type"
+// import { Status } from "@/app/action/type";
 
 // export default function Contact() {
 //   const { ref } = useSectionInView("Contact");
@@ -16,66 +16,65 @@
 //     <motion.section
 //       id="contact"
 //       ref={ref}
-//       className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
-//       initial={{
-//         opacity: 0,
-//       }}
-//       whileInView={{
-//         opacity: 1,
-//       }}
-//       transition={{
-//         duration: 1,
-//       }}
-//       viewport={{
-//         once: true,
-//       }}
+//       className="mb-20 sm:mb-28 w-[min(100%,42rem)] text-center mx-auto px-4"
+//       initial={{ opacity: 0, y: 50 }}
+//       whileInView={{ opacity: 1, y: 0 }}
+//       transition={{ duration: 1 }}
+//       viewport={{ once: true }}
 //     >
-//       <SectionHeading>Contact me</SectionHeading>
+//       <SectionHeading>Contact Me</SectionHeading>
 
-//       <p className="text-gray-700 -mt-6 font-semibold">
-//         Please contact me directly at{" "}
-//         <a className="underline font-medium font-serif" href="mailto:sachinkumardagar20001@gmail.com">
+//       <p className="text-gray-700 -mt-4 text-lg font-medium leading-relaxed">
+//         I'm always open to collaboration and discussion. You can reach me at{" "}
+//         <a
+//           className="underline text-blue-600 hover:text-blue-800 font-semibold"
+//           href="mailto:sachinkumardagar20001@gmail.com"
+//         >
 //           sachinkumardagar20001@gmail.com
 //         </a>{" "}
-//         or through this form.
+//         or use the form below.
 //       </p>
 
-//       <form
-//         className="mt-10 flex flex-col "
+//       <motion.form
+//         className="mt-10 bg-white dark:bg-zinc-900 p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-200 dark:border-zinc-700 flex flex-col gap-4"
+//         initial={{ opacity: 0, y: 20 }}
+//         whileInView={{ opacity: 1, y: 0 }}
+//         transition={{ delay: 0.3 }}
+//         viewport={{ once: true }}
 //         action={async (formData) => {
 //           const res = await sendEmail(formData);
 //           if (res.status === Status.FAILURE) {
-//             toast.error("An Error occoured please try again later!");
+//             toast.error("An error occurred. Please try again later.");
 //             return;
 //           }
 //           if (res.status === Status.INVALIDEMAIL) {
-//             toast.error("The Email Address is invalid, please try again with a different email!");
+//             toast.error("Invalid email address. Please use a valid one.");
 //             return;
 //           }
 //           if (res.status === Status.INVALIDMESSAGE) {
-//             toast.error("The Message should be less than 5000 characters");
+//             toast.error("Message should be under 5000 characters.");
 //             return;
 //           }
 //           toast.success("Email sent successfully!");
 //         }}
 //       >
 //         <input
-//           className="h-14 px-4 rounded-lg borderBlack  transition-all"
+//           className="h-14 px-4 rounded-xl border border-gray-300 dark:border-zinc-600 bg-gray-50 dark:bg-zinc-800 text-gray-800 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
 //           name="senderEmail"
 //           type="email"
 //           required
 //           maxLength={500}
-//           placeholder="Your email"
+//           placeholder="Your email address"
 //         />
 //         <textarea
-//           className="h-52 my-3 rounded-lg borderBlack p-4 transition-all"
+//           className="h-52 p-4 rounded-xl border border-gray-300 dark:border-zinc-600 bg-gray-50 dark:bg-zinc-800 text-gray-800 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none transition-all"
 //           name="message"
-//           placeholder="Your message"
 //           required
 //           maxLength={5000}
+//           placeholder="Your message"
 //         />
 //         <SubmitBtn />
-//       </form>
+//       </motion.form>
 //     </motion.section>
 //   );
 // }

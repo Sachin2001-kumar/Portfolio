@@ -2,7 +2,7 @@
 
 // import React from "react";
 // import { Resend } from "resend";
-// import { validateString } from "@/lib/utils";
+// import { validateString } from "@/app/lib/utils";
 // import ContactFormEmail from "@/email/contact-form-email";
 // import { Status } from "./type";
 
