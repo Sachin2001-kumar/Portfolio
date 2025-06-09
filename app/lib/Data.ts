@@ -1,6 +1,8 @@
 import Newsflow from "@/Public/Newsflow.png";
 import Portfolio from "@/Public/Portfolio.png";
 import TrackNSpend from "@/Public/TrackNSpend.png";
+import { CgWorkAlt } from "react-icons/cg";
+import React from "react";
 
 export const NAV_LINKS = [
   {
@@ -10,6 +12,10 @@ export const NAV_LINKS = [
   {
     name: "About",
     hash: "#about",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Projects",
@@ -70,4 +76,15 @@ export const skillsData = [
   "Prisma",
   "Git",
   "Docker",
+] as const;
+
+export const experiencesData = [
+  {
+    position: "Software Engineer Intern",
+    company: "Success Ladder Technologies",
+    description:
+      "As a Software Engineer Intern, I developed a responsive e-commerce site using HTML, CSS, Bootstrap, React.js, Next.js, and Angular. I integrated REST APIs for seamless data flow and collaborated with backend teams. Performance was improved by 20% through lazy loading and effective debugging.",
+    icon: React.createElement(CgWorkAlt),
+    timeline: "Feb, 2025 -May 2025",
+  },
 ] as const;
