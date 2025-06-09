@@ -19,7 +19,7 @@ export default function Experience() {
       id="experience"
       className="scroll-mt-14 px-4 mb-24 text-black"
     >
-      <SectionHeading>Experience</SectionHeading>
+      <SectionHeading>My Experience</SectionHeading>
 
       <motion.div
         className="mt-10"
@@ -33,13 +33,13 @@ export default function Experience() {
             <VerticalTimelineElement
               key={index}
               contentStyle={{
-                background: "#d1fae5",
+                background: "#edf2fb",
                 color: "#000",
                 borderTop: "4px solid #3b82f6",
                 boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)",
                 padding: 0,
               }}
-              contentArrowStyle={{ borderRight: "7px solid #d1fae5" }}
+              contentArrowStyle={{ borderRight: "7px solid #edf2fb" }}
               date={exp.timeline}
               iconStyle={{ background: "#8fc7e8", color: "#fff" }}
               icon={<span style={{ fontSize: "1.5rem" }}>{exp.icon}</span>}

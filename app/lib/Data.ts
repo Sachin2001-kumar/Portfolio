@@ -18,6 +18,10 @@ export const NAV_LINKS = [
     hash: "#experience",
   },
   {
+    name: "Education",
+    hash: "#education",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
@@ -86,5 +90,22 @@ export const experiencesData = [
       "As a Software Engineer Intern, I developed a responsive e-commerce site using HTML, CSS, Bootstrap, React.js, Next.js, and Angular. I integrated REST APIs for seamless data flow and collaborated with backend teams. Performance was improved by 20% through lazy loading and effective debugging.",
     icon: React.createElement(CgWorkAlt),
     timeline: "Feb, 2025 -May 2025",
+  },
+] as const;
+
+export const educationData = [
+  {
+    institution: "Modern Institute Of Technology & Research Centre, Alwar",
+    major: "Computer Science and Engineering",
+    course: "B.Tech",
+    duration: "2020 – 2024",
+    score: "8.28 CGPA",
+  },
+  {
+    institution: "Saraswati Senior Secondary School , Alwar",
+    major: "PCM",
+    course: "Class 12th",
+    duration: "2017 – 2019",
+    score: "75.60%",
   },
 ] as const;
