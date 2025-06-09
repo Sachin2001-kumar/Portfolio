@@ -17,7 +17,7 @@ export default function Education() {
     <section
       id="education"
       ref={ref}
-      className="scroll-mt-24 px-4 py-10 text-black"
+      className="scroll-mt-24 px-4 py-10 text-black mb-24"
     >
       <SectionHeading>My Education</SectionHeading>
 

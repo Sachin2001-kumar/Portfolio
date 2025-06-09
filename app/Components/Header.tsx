@@ -30,12 +30,12 @@ export default function Header() {
       {/* Mobile menu */}
       <div className="flex justify-end">
         <div className="sm:hidden">
-          <Menubar className="bg-blue-50 border-none h-20">
+          <Menubar className="bg-transparent border-none h-20">
             <MenubarMenu>
               <MenubarTrigger>
                 <MenuIcon size={40} />
               </MenubarTrigger>
-              <MenubarContent className="bg-blue-50 font-bold mr-2">
+              <MenubarContent className="bg-blue-50 font-bold mr-2 border-r-8">
                 {NAV_LINKS.map((link) => (
                   <Link key={link.hash} href={`/${link.hash}`}>
                     <MenubarItem className="p-4 w-[75vw]">
