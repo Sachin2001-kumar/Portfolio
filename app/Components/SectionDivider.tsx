@@ -7,7 +7,7 @@ export default function SectionDivider() {
   return (
     <motion.div
       className="my-08 h-16 w-1 rounded-full hidden sm:block "
-      style={{ backgroundColor: "#EEEDEB" }}
+      style={{ backgroundColor: "transparent" }}
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
