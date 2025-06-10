@@ -1,6 +1,6 @@
-import Newsflow from "@/Public/Newsflow.png";
 import Portfolio from "@/Public/Portfolio.png";
 import TrackNSpend from "@/Public/TrackNSpend.png";
+import Droplix from "@/Public/Droplix.png";
 import { CgWorkAlt } from "react-icons/cg";
 import React from "react";
 
@@ -36,6 +36,15 @@ export const NAV_LINKS = [
 ] as const;
 export const ProjectData = [
   {
+    title: "Droplix",
+    description:
+      "Developed a secure image hosting platform using Next.js, ImageKit, Clerk, and PostgreSQL, achieving 99.9% uptime. Improved UX with a responsive Tailwind CSS + Hero UI design, reducing bounce rate by 20%. Boosted data access and image delivery speeds by 30% and 40% respectively through query optimization and CDN integration.",
+    tags: ["NextJS", "PostgreSQL", "TailwindCSS", "Clerk", "ImageKit,"],
+    imageUrl: Droplix,
+    github: "https://github.com/Sachin2001-kumar/Droplix",
+    liveUrl: "https://droplix.vercel.app/",
+  },
+  {
     title: "Portfolio",
     description:
       "Created a Portfolio website for me with NextJS, TailwindCSS for styling, and Resend for email.",
@@ -51,15 +60,6 @@ export const ProjectData = [
     tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
     imageUrl: TrackNSpend,
     github: "https://github.com/Sachin2001-kumar/TrackNSpend",
-    liveUrl: "",
-  },
-  {
-    title: "NewsFlow",
-    description:
-      "Designed and developed an interactive news application using HTML, CSS, and JavaScript.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: Newsflow,
-    github: "https://github.com/Sachin2001-kumar/NewsFlow-Web",
     liveUrl: "",
   },
 ];
