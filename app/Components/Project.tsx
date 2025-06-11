@@ -53,7 +53,7 @@ export default function Project({
             </li>
           ))}
         </ul>
-        <p className="pt-2 md:w-96 lg:w-[450px] font-semibold">{description}</p>
+        <p className="pt-2 md:w-96 lg:w-[600px] font-semibold">{description}</p>
       </div>
     </div>
   );
