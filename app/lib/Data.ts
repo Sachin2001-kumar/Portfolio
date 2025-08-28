@@ -1,6 +1,6 @@
-import Portfolio from "@/Public/Portfolio.png";
-import TrackNSpend from "@/Public/TrackNSpend.png";
-import Droplix from "@/Public/Droplix.png";
+import Portfolio from "@/public/Portfolio.png";
+import TrackNSpend from "@/public/TrackNSpend.png";
+import Droplix from "@/public/Droplix.png";
 import { CgWorkAlt } from "react-icons/cg";
 import React from "react";
 
