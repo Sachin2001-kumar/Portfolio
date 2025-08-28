@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center px-4">
       <Intro />
-      <div className="bg-yellow-200 h-[45rem] w-[40rem]"></div>
       <About />
       <Experience />
       <Education />
