@@ -65,14 +65,14 @@ export const ProjectData = [
 ];
 export const skillsData = [
   "C++",
-  "Python",
+  "Java",
   "JavaScript",
   "TypeScript",
   "PostgreSQL",
   "Next.js",
   "TailwindCSS",
   "React.js",
-  "Recoil",
+  "Redux",
   "Node.js",
   "Express.js",
   "TurboRepo",

@@ -37,7 +37,7 @@ export default function Header() {
               </MenubarTrigger>
               <MenubarContent className="bg-blue-50 font-bold mr-2 border-r-8">
                 {NAV_LINKS.map((link) => (
-                  <Link key={link.hash} href={`/${link.hash}`}>
+                  <Link key={link.hash} href={link.hash}>
                     <MenubarItem className="p-4 w-[75vw]">
                       {link.name}
                     </MenubarItem>
