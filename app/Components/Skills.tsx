@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { skillsData } from "../lib/Data";
 import { useSectionInView } from "../lib/hooks";
 import SectionHeading from "./SectionHeading";
