@@ -16,7 +16,23 @@ export default function Contact() {
     "text-3xl text-gray-800 group-hover:text-white transition duration-300 relative z-10";
 
   return (
-    <section ref={ref} id="Contact" className="py-24 px-6 scroll-mt-28">
+    <motion.section
+      ref={ref}
+      id="contact"
+      className="py-24 px-6 scroll-mt-28"
+      initial={{
+        opacity: 0,
+      }}
+      whileInView={{
+        opacity: 1,
+      }}
+      transition={{
+        duration: 1,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
       <div className="max-w-2xl mx-auto text-center">
         {/* Heading */}
         <SectionHeading> Let&apos;s Connect </SectionHeading>
@@ -81,6 +97,6 @@ export default function Contact() {
           </motion.a>
         </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 }

@@ -17,7 +17,7 @@ export default function Experience() {
     <section
       ref={ref}
       id="experience"
-      className="scroll-mt-14 px-4 mb-24 text-black"
+      className="scroll-mt-14 px-4 mb-24 text-black pt-8"
     >
       <SectionHeading>My Experience</SectionHeading>
 
