@@ -19,7 +19,7 @@ export default function Contact() {
     <motion.section
       ref={ref}
       id="contact"
-      className="py-24 px-6 scroll-mt-28"
+      className="py-16 px-6 scroll-mt-28"
       initial={{
         opacity: 0,
       }}

@@ -9,6 +9,7 @@ export const NAV_LINKS = [
     name: "Home",
     hash: "#home",
   },
+
   {
     name: "About",
     hash: "#about",
@@ -18,10 +19,6 @@ export const NAV_LINKS = [
     hash: "#experience",
   },
   {
-    name: "Education",
-    hash: "#education",
-  },
-  {
     name: "Projects",
     hash: "#projects",
   },
@@ -29,6 +26,11 @@ export const NAV_LINKS = [
     name: "Skills",
     hash: "#skills",
   },
+  {
+    name: "Education",
+    hash: "#education",
+  },
+
   {
     name: "Contact",
     hash: "#contact",

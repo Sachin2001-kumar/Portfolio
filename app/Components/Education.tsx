@@ -11,13 +11,13 @@ import SectionHeading from "./SectionHeading";
 import { educationData } from "../lib/Data";
 
 export default function Education() {
-  const { ref } = useSectionInView("Education");
+  const { ref } = useSectionInView("Education", 0.3);
 
   return (
     <section
       id="education"
       ref={ref}
-      className="scroll-mt-24 px-4 py-10 text-black mb-24"
+      className="scroll-mt-24 px-4 py-4 text-black mb-6"
     >
       <SectionHeading>My Education</SectionHeading>
 
