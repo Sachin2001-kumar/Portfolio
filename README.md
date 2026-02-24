@@ -105,6 +105,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/Sachin2001-kumar/Portfolio.git
 cd Portfolio
+
 Install dependencies: npm install
 
 Run development server: npm run dev
@@ -119,4 +120,5 @@ All projects are deployed using Vercel CI/CD with automated builds and continuou
 📧 Email: sachinkumardagar20001@gmail.com
 🔗 LinkedIn: linkedin.com/in/sachin-kumar-dagar-a430521ba
 💻 GitHub: github.com/Sachin2001-kumar
+
 
