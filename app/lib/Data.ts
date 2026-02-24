@@ -1,6 +1,7 @@
 import Portfolio from "@/public/Portfolio.png";
 import TrackNSpend from "@/public/TrackNSpend.png";
 import Droplix from "@/public/Droplix.png";
+import ResumeX from "@/public/ResumeX.png";
 import { CgWorkAlt } from "react-icons/cg";
 import React from "react";
 
@@ -37,6 +38,15 @@ export const NAV_LINKS = [
   },
 ] as const;
 export const ProjectData = [
+  {
+    title: "ResumeX",
+    description:
+      "Developed an AI-powered Resume Analyzer using React.js, TypeScript, and Zustand with SDK-based cloud integration for authentication, storage, and AI processing. Implemented client-side PDF-to-image conversion using PDF.js with SSR-safe dynamic imports for seamless browser-based resume rendering. Integrated structured prompt engineering and OCR workflows to enhance feedback accuracy by 12%. Optimized asynchronous file handling and state management, reducing response time by 15% while ensuring secure and scalable key-value data management.",
+    tags: ["ReactJS", "TypeScript", "PDF.js", "Cloud AI SDK"],
+    imageUrl: ResumeX,
+    github: "https://github.com/Sachin2001-kumar/ResumeX",
+    liveUrl: "https://resume-x-pied.vercel.app/",
+  },
   {
     title: "Droplix",
     description:
